@@ -1,0 +1,8 @@
+{
+    "full_name": "Mahmudul Hasan",
+    "email": "cs.mahmud@gmail.com",
+    "project_name": "cmake_project",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
+    "project_description": "boilerplate for small C++ programs with cmake"
+}
